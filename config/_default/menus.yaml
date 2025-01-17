@@ -5,7 +5,7 @@
 
 main:
   - name: Publications by application
-    url: '#publications-by-application'
+    url: '#by-application'
     weight: 20
   - name: Publications by device
     url: by-device
