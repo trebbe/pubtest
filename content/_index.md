@@ -3,7 +3,6 @@
 title:
 date: 2022-10-24
 type: landing
-
   - block: portfolio
     id: publications-by-application
     content:
@@ -22,8 +21,6 @@ type: landing
       columns: '3'
       view: card
       flip_alt_rows: false
-
-
   - block: collection
     content:
       title: Latest Preprints
