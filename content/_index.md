@@ -4,6 +4,8 @@ title:
 date: 2022-10-24
 type: landing
 
+sections:
+
 - block: portfolio
   id: projects-by-application
   content:
@@ -22,9 +24,7 @@ type: landing
     columns: '3'
     view: card
     flip_alt_rows: false
-
-
-sections:
+  
   - block: hero
     content:
       title: |
@@ -98,3 +98,4 @@ sections:
     design:
       columns: '1'
 ---
+
