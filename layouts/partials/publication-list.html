@@ -1,0 +1,12 @@
+{{ $tag := .Params.tag }}
+<h2>Related Publications</h2>
+<ul>
+  {{ range where .Site.RegularPages "Type" "publication" }}
+    {{ if in .Params.tags $tag }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        ({{ .Date.Format "2006" }})
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
