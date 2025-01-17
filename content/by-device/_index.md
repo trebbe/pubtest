@@ -3,9 +3,9 @@ title: Publications by Device
 type: landing
 sections:
   - block: portfolio
-    id: projects-by-device
+    id: publications-by-device
     content:
-      title: Projects by Device
+      title: Publications by Device
       filters:
         folders:
           - device
