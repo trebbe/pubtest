@@ -4,7 +4,6 @@ title:
 date: 2022-10-24
 type: landing
 
-
   - block: portfolio
     id: publications-by-application
     content:
@@ -15,12 +14,10 @@ type: landing
       buttons:
         - name: All
           tag: '*'
-        - name: EEG
-          tag: eeg
-        - name: fNIRS
-          tag: fnirs
-        - name: EMG
-          tag: emg
+        - name: Brain
+          tag: brain
+        - name: Muscle
+          tag: muscle
     design:
       columns: '3'
       view: card
