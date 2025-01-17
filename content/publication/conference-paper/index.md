@@ -8,6 +8,8 @@ authors:
   - admin
   - Robert Ford
 
+project_name: EEG
+
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
