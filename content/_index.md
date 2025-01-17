@@ -5,26 +5,6 @@ date: 2022-10-24
 type: landing
 
 sections:
-
-- block: portfolio
-  id: projects-by-application
-  content:
-    title: Projects by Application
-    filters:
-      folders:
-        - application
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Brain
-          tag: brain
-        - name: Muscle
-          tag: muscle
-  design:
-    columns: '3'
-    view: card
-    flip_alt_rows: false
-  
   - block: hero
     content:
       title: |
@@ -98,4 +78,3 @@ sections:
     design:
       columns: '1'
 ---
-
