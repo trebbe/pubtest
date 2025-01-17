@@ -18,7 +18,7 @@ sections:
       - name: fNIRS
         tag: fnirs
     design:
-      columns: '1'
+      columns: '3'
       view: card
       flip_alt_rows: false
 ---
