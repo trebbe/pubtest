@@ -82,7 +82,7 @@
   translation: Dataset
 
 - id: btn_project
-  translation: Projectbutton
+  translation: $project_name
 
 - id: btn_poster
   translation: Poster
