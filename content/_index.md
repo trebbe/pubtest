@@ -4,6 +4,28 @@ title:
 date: 2022-10-24
 type: landing
 
+- block: portfolio
+  id: publications-by-application
+  content:
+    title: Publications by application
+    filters:
+      folders:
+        - publication
+    buttons:
+      - name: All
+        tag: '*'
+      - name: EEG
+        tag: eeg
+      - name: EMG
+        tag: emg
+      - name: fNIRS
+        tag: fnirs
+  design:
+    columns: '3'
+    view: card
+    flip_alt_rows: false
+
+
 sections:
   - block: hero
     content:
