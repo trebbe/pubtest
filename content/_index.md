@@ -23,19 +23,19 @@ sections:
       view: card
       flip_alt_rows: false    
   - block: portfolio
-    id: by-application
+    id: by-device
     content:
-      title: Publications by Application
+      title: Publications by Device
       filters:
         folders:
-          - application
+          - device
       buttons:
         - name: All
           tag: '*'
-        - name: Brain
-          tag: brain
-        - name: Muscle
-          tag: muscle
+        - name: EEG
+          tag: eeg
+        - name: fnirs
+          tag: fnirs
     design:
       columns: '3'
       view: card
