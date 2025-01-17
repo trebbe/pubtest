@@ -28,7 +28,7 @@ sections:
       title: Publications by Device
       filters:
         folders:
-          - device
+          - project
       buttons:
         - name: All
           tag: '*'
