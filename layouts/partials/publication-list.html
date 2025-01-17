@@ -6,7 +6,16 @@
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         ({{ .Date.Format "2006" }})
+        {{ with .Params.authors }}
+          by {{ delimit . ", " }}
+        {{ end }}
       </li>
     {{ end }}
   {{ end }}
 </ul>
+<li>
+
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  ({{ .Date.Format "2006" }})
+
+</li>
