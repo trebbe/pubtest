@@ -4,12 +4,12 @@ type: landing
 
 sections:
   - block: portfolio
-    id: publications-by-device
+    id: projects-by-device
     content:
-      title: Publications by Device
+      title: Projects by Device
       filters:
         folders:
-          - publication
+          - device
     buttons:
       - name: All
         tag: '*'
