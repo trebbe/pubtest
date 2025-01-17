@@ -1,7 +1,6 @@
 ---
 title: Publications by Device
 type: landing
-
 sections:
   - block: portfolio
     id: projects-by-device
