@@ -33,7 +33,7 @@ sections:
         - name: All
           tag: '*'
         - name: EEG
-          tag: eeg
+          tag: eeg-project
         - name: fnirs
           tag: fnirs
     design:
