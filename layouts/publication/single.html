@@ -1,0 +1,5 @@
+{{ with .Params.project_name }}
+  <a class="btn btn-outline-primary btn-page-header" href="{{ $.Site.BaseURL }}{{ $.Params.project_path }}">
+    {{ . }}
+  </a>
+{{ end }}
